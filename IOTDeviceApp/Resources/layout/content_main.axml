@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+		<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+	<TextView
+			 android:id="@+id/txtDeviceId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Id :" />
+		
+		 </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+	<TextView
+		 android:id="@+id/txtUpdatedTime"
+         android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:text="Time" />
+		 </LinearLayout>
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <TextView
+		 android:id="@+id/txtTemprature"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+	
+        android:text="Device Temperature" />
+		 </LinearLayout>
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+	 <TextView
+		 android:id="@+id/txtLocation"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+		
+        android:text="Device Location" />
+		 </LinearLayout>
+	<!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+		<Button
+        android:id="@+id/bttLoaction"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish Location" />
+        <Button
+        android:id="@+id/bttTemperature"
+	    android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish Temperature" />
+	</LinearLayout>
+	-->
+	
+
+	
+</LinearLayout>
